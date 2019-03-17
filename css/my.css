@@ -41,7 +41,7 @@
 }
 
 #social {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 #social ul {
     list-style: none;
@@ -79,9 +79,8 @@
     
 }
 #imad-profile img{
-    display: block;
-    position: absolute;
-    right: -40%;
+    width: 120%;
+    
 }
 
 @media only screen and (max-width: 425px) {
@@ -116,9 +115,8 @@
     
   }
 
-  #body p {
+  /* #body p {
       max-width: 50%;
-  }
-  body {
-      /* overflow: hidden; */
-  }
+  } */
+  /* body {
+      /* overflow: hidden;   } */
