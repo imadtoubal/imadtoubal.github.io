@@ -28,14 +28,14 @@
 /* FONTS */
 @font-face {
   font-family: 'Din';
-  src: url('fonts/D-DIN.otf');
+  src: url('../fonts/D-DIN.otf');
   font-weight: normal;
   
 }
 
 @font-face {
   font-family: 'Din';
-  src: url('fonts/D-DIN-Bold.otf');
+  src: url('../fonts/D-DIN-Bold.otf');
   font-weight: bold;
   
 }
