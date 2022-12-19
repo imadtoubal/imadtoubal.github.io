@@ -11,6 +11,13 @@
   font-weight: bold;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .nav-menu #logo img {
   width: 150px;
 }
@@ -47,13 +54,16 @@
   color: black;
 }
 
-#body {
-  margin-top: 5vh;
-}
-
 #body h1 {
   font-size: 100px;
   line-height: 100px;
+}
+
+#type {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #social {
@@ -144,4 +154,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(225deg, #f9dca3, #f7a78e);
+}
+
+.container::after {
+  display: none;
 }
